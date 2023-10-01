@@ -2,7 +2,7 @@ name: Deployment
 on:
   push:
     branches:
-      - main
+      - s3
 jobs:
   lint:
     runs-on: ubuntu-latest
