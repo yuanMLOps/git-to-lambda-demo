@@ -2,7 +2,7 @@ name: Deployment
 on:
   push:
     branches:
-      - s3
+      - reactjs
 jobs:
   lint:
     runs-on: ubuntu-latest
