@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d5b05be.css",
+    "main.js": "/static/js/main.f121d653.js",
+    "static/js/787.7c4105ee.chunk.js": "/static/js/787.7c4105ee.chunk.js",
+    "static/media/Little_Lemon_small.png": "/static/media/Little_Lemon_small.6805d202989df0760fcd.png",
+    "static/media/greek_salad_2.jpg": "/static/media/greek_salad_2.0eaf87a020bd7430bd51.jpg",
+    "static/media/Bruschetta_mix.jpg": "/static/media/Bruschetta_mix.371c0157eee406f043f3.jpg",
+    "static/media/chef2.avif": "/static/media/chef2.793098e67c75bf09645e.avif",
+    "static/media/chef1.avif": "/static/media/chef1.f90d7666037edbd81200.avif",
+    "static/media/Asset 16@4x.png": "/static/media/Asset 16@4x.d4cae6fac8384c2dae04.png",
+    "static/media/lemon_cake_2.jpg": "/static/media/lemon_cake_2.71f67f0a293f898a9251.jpg",
+    "static/media/Asset 9@4x.png": "/static/media/Asset 9@4x.b8445110e4e49b6b30a0.png",
+    "index.html": "/index.html",
+    "main.5d5b05be.css.map": "/static/css/main.5d5b05be.css.map",
+    "main.f121d653.js.map": "/static/js/main.f121d653.js.map",
+    "787.7c4105ee.chunk.js.map": "/static/js/787.7c4105ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d5b05be.css",
+    "static/js/main.f121d653.js"
+  ]
+}
