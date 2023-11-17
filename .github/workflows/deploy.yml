@@ -48,8 +48,8 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: dist-files
-          path: dist
+          name: build-files
+          path: build
   deploy:
     # create openID connect in AWS IAM and set 
     # the github identity role
@@ -64,8 +64,8 @@ jobs:
       - name: Get build artifacts
         uses: actions/download-artifact@v3
         with:
-          name: dist-files
-          path: ./dist
+          name: build-files
+          path: ./build
       - name: Output contents
         run: ls
       # - name: Get AWS permissions
