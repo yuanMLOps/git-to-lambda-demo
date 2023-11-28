@@ -26,7 +26,6 @@ def run():
             )
 
     website_url = f'http://{bucket}.s3-website-{bucket_region}.amazonaws.com'
-    # The below code sets the 'website-url' output (the old ::set-output syntax isn't supported anymore - that's the only thing that changed though)
     with open(os.environ['GITHUB_OUTPUT'], 'a') as gh_output:
         print(f'website-url={website_url}', file=gh_output)
 
