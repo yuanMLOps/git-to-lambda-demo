@@ -3,6 +3,9 @@ import boto3
 import mimetypes
 from botocore.config import Config
 
+# This is to demo using customer component from python instead of using javascript
+# the code was collected from internet and may need further optimization. This
+# is just for demo purpose to experiment how dockers can be used to create customerized actions
 # github actions make input variables defined in action.yml
 # available to Python files in container by adding prefix of INPUT_ and
 # then concatenate the input variable name. All letters are upper case
