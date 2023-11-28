@@ -28,6 +28,8 @@ def run():
                 ExtraArgs={"ContentType": mimetypes.guess_type(file)[0]}
             )
 
+    # this won't be applicable. Will build a docker image from my reactjs code
+    # and push the docker image to ECR and spin up web app based on it.
     website_url = f'http://{bucket}.s3-website-{bucket_region}.amazonaws.com'
     with open(os.environ['GITHUB_OUTPUT'], 'a') as gh_output:
         print(f'website-url={website_url}', file=gh_output)
